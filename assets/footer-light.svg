@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="thanks for visiting">
+  <title>thanks for visiting</title>
+  <style>
+.sway{animation:sway 4s ease-in-out infinite alternate}
+.fall{transform-box:fill-box;transform-origin:center;animation:fallA linear infinite}
+.fall.b{animation-name:fallB}.fall.c{animation-name:fallC}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 3s ease-in-out infinite}
+@keyframes sway{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+@keyframes fallA{0%{transform:translate(0,-30px) rotate(0);opacity:0}8%{opacity:.95}88%{opacity:.95}100%{transform:translate(60px,var(--h)) rotate(320deg);opacity:0}}
+@keyframes fallB{0%{transform:translate(0,-30px) rotate(40deg);opacity:0}8%{opacity:.9}88%{opacity:.9}100%{transform:translate(-50px,var(--h)) rotate(-260deg);opacity:0}}
+@keyframes fallC{0%{transform:translate(0,-30px) rotate(-20deg) scale(.8);opacity:0}8%{opacity:.85}88%{opacity:.85}100%{transform:translate(20px,var(--h)) rotate(200deg) scale(.8);opacity:0}}
+@keyframes tw{0%,100%{transform:scale(.5);opacity:.25}50%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', 'Microsoft YaHei', 'Noto Sans CJK JP', Helvetica, Arial, sans-serif}
+  .wave{animation:wave 9s ease-in-out infinite alternate}
+  .wave.b{animation-duration:12s;animation-direction:alternate-reverse}
+  @keyframes wave{from{transform:translateX(-40px)}to{transform:translateX(0)}}</style>
+  <defs>
+    <linearGradient id="wa" x1="0" x2="1"><stop offset="0" stop-color="#ffc2dc"/><stop offset="1" stop-color="#d9c9ff"/></linearGradient>
+    <linearGradient id="wb" x1="0" x2="1"><stop offset="0" stop-color="#ffe0ed"/><stop offset="1" stop-color="#e3f0ff"/></linearGradient>
+    <clipPath id="fclip"><rect width="1200" height="140" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#fclip)">
+    <g transform="translate(518.7 0)"><g class="sway" style="animation-delay:-1.9s"><g class="fall" style="--h:140px;animation-duration:13s;animation-delay:-3.7s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(1070.4 0)"><g class="sway" style="animation-delay:-3.1s"><g class="fall b" style="--h:140px;animation-duration:16.8s;animation-delay:-5.8s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1.1)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(226.6 0)"><g class="sway" style="animation-delay:-0.4s"><g class="fall c" style="--h:140px;animation-duration:12.1s;animation-delay:-7.4s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(1099.3 0)"><g class="sway" style="animation-delay:-0.2s"><g class="fall" style="--h:140px;animation-duration:10.9s;animation-delay:-6s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1.4)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(586.4 0)"><g class="sway" style="animation-delay:-0.4s"><g class="fall b" style="--h:140px;animation-duration:11.1s;animation-delay:-6.1s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1.1)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(802.6 0)"><g class="sway" style="animation-delay:-2.4s"><g class="fall c" style="--h:140px;animation-duration:16.2s;animation-delay:-14.6s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1.2)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(220.2 0)"><g class="sway" style="animation-delay:-2.5s"><g class="fall" style="--h:140px;animation-duration:12s;animation-delay:-4.6s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(0.9)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g><g transform="translate(510.4 0)"><g class="sway" style="animation-delay:-3s"><g class="fall b" style="--h:140px;animation-duration:12.5s;animation-delay:-11.6s"><path d="M0,-5 L-2,-8 C-7,-8 -9,-1 -7,4 C-5,8 5,8 7,4 C9,-1 7,-8 2,-8 Z" transform="scale(1.2)" fill="#ffbcd6" stroke="#f48fb8" stroke-width=".8"/></g></g></g>
+    <path class="wave b" fill="url(#wb)" d="M0 92 C140 62 280 62 420 88 S700 120 840 92 S1100 60 1240 84 L1240 140 L0 140 Z"/>
+    <path class="wave" fill="url(#wa)" d="M0 108 C160 86 300 128 460 112 S760 84 920 106 S1140 128 1240 104 L1240 140 L0 140 Z"/>
+    <text x="600" y="58" text-anchor="middle" font-size="18" fill="#6e6585" letter-spacing="2">thanks for visiting ✿ またね～</text>
+  </g>
+</svg>

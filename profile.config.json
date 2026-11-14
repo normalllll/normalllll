@@ -1,0 +1,41 @@
+{
+  "user": "normalllll",
+  "about": [
+    "Flutter on the outside, Rust on the inside",
+    "tools for browsing & collecting anime art",
+    "Japanese TTS, voice training and voice-line archiving",
+    "lately: letting AI agents drive and check real apps"
+  ],
+  "cards": [
+    {
+      "repo": "BooruFlow",
+      "description": "Booru browser & downloader for Danbooru, Gelbooru, Yande.re, Wallhaven and more.",
+      "tags": ["Mobile", "Desktop"]
+    },
+    {
+      "repo": "freepiv",
+      "description": "A cross-platform third-party Pixiv app.",
+      "tags": ["Mobile", "Desktop"]
+    },
+    {
+      "repo": "gf2_echo_archive",
+      "description": "Export voice lines, story text, portraits and Live2D models from your local GF2: Exilium install.",
+      "tags": ["Windows"]
+    },
+    {
+      "repo": "Irodori-TTS-Desktop",
+      "description": "Japanese text-to-speech and LoRA voice training, no command line needed.",
+      "tags": ["Windows"]
+    },
+    {
+      "repo": "flutter-ui-automation",
+      "description": "Background Flutter UI automation for AI agents, with probe-verified screenshots.",
+      "tags": ["AI agents"]
+    },
+    {
+      "repo": "codex-relay",
+      "description": "Delegate tasks to Codex desktop chats and supervise them from Codex or Claude Code.",
+      "tags": ["AI agents"]
+    }
+  ]
+}
